@@ -41,7 +41,6 @@
     if (cell == nil) {
         cell = [OfferCell createCell];
         [cell setBackgroundColor:[UIColor clearColor]];
-        //[cell.buttonCall addTarget:self action:@selector(actionCall:) forControlEvents:UIControlEventTouchUpInside];
     }
     Offer *offer = [offers objectAtIndex:indexPath.row];
     cell.labelTitle.text = offer.title;
