@@ -26,6 +26,10 @@
     
 }
 
+- (void) dealloc {
+    self.offers = nil;
+}
+
 #pragma mark -
 #pragma mark TableView DataSource And Delegates
 
