@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E366119F18F8505C00C686EF /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = E366119E18F8505C00C686EF /* Offer.m */; };
+		E36611A218F851FA00C686EF /* OfferThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611A118F851FA00C686EF /* OfferThumbnail.m */; };
+		E36611A518F8520800C686EF /* OfferTimeToPayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611A418F8520800C686EF /* OfferTimeToPayout.m */; };
+		E36611A818F8521B00C686EF /* OfferType.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611A718F8521B00C686EF /* OfferType.m */; };
+		E36611AC18F858D500C686EF /* SponsorPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611AB18F858D500C686EF /* SponsorPayViewController.m */; };
+		E36611B018F8590B00C686EF /* OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611AF18F8590B00C686EF /* OfferViewController.m */; };
+		E36611B318F85B2B00C686EF /* OfferCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611B218F85B2B00C686EF /* OfferCell.m */; };
+		E36611B518F87CDB00C686EF /* OfferCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E36611B418F87CDB00C686EF /* OfferCell.xib */; };
+		E36611B818F8842600C686EF /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611B718F8842600C686EF /* Common.m */; };
+		E36611BE18F88A8E00C686EF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611BD18F88A8E00C686EF /* Reachability.m */; };
+		E36611CF18F89E3000C686EF /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611CA18F89E3000C686EF /* HTTPClient.m */; };
+		E36611D018F89E3000C686EF /* HTTPCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611CC18F89E3000C686EF /* HTTPCommon.m */; };
+		E36611D118F89E3000C686EF /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611CE18F89E3000C686EF /* HTTPRequest.m */; };
+		E36611DD18F8A23400C686EF /* OffersRequestTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E36611DC18F8A23400C686EF /* OffersRequestTestCase.m */; };
+		E371595918F8A6E700B77F6F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E371595818F8A6E700B77F6F /* AdSupport.framework */; };
 		E3F8DE0718F5CDC400D9B58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE0618F5CDC400D9B58C /* Foundation.framework */; };
 		E3F8DE0918F5CDC400D9B58C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE0818F5CDC400D9B58C /* CoreGraphics.framework */; };
 		E3F8DE0B18F5CDC400D9B58C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE0A18F5CDC400D9B58C /* UIKit.framework */; };
@@ -15,13 +30,26 @@
 		E3F8DE1718F5CDC400D9B58C /* SponsorPayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE1618F5CDC400D9B58C /* SponsorPayAppDelegate.m */; };
 		E3F8DE1A18F5CDC400D9B58C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F8DE1818F5CDC400D9B58C /* Main_iPhone.storyboard */; };
 		E3F8DE1D18F5CDC400D9B58C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F8DE1B18F5CDC400D9B58C /* Main_iPad.storyboard */; };
-		E3F8DE2018F5CDC400D9B58C /* SponsorPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE1F18F5CDC400D9B58C /* SponsorPayViewController.m */; };
 		E3F8DE2218F5CDC400D9B58C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F8DE2118F5CDC400D9B58C /* Images.xcassets */; };
 		E3F8DE2918F5CDC400D9B58C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE2818F5CDC400D9B58C /* XCTest.framework */; };
 		E3F8DE2A18F5CDC400D9B58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE0618F5CDC400D9B58C /* Foundation.framework */; };
 		E3F8DE2B18F5CDC400D9B58C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE0A18F5CDC400D9B58C /* UIKit.framework */; };
 		E3F8DE3318F5CDC400D9B58C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F8DE3118F5CDC400D9B58C /* InfoPlist.strings */; };
-		E3F8DE3518F5CDC400D9B58C /* SponsorPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE3418F5CDC400D9B58C /* SponsorPayTests.m */; };
+		E3F8DE5318F5CE5D00D9B58C /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE4118F5CE5D00D9B58C /* AFHTTPClient.m */; };
+		E3F8DE5418F5CE5D00D9B58C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE4318F5CE5D00D9B58C /* AFHTTPRequestOperation.m */; };
+		E3F8DE5518F5CE5D00D9B58C /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE4518F5CE5D00D9B58C /* AFImageRequestOperation.m */; };
+		E3F8DE5618F5CE5D00D9B58C /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE4718F5CE5D00D9B58C /* AFJSONRequestOperation.m */; };
+		E3F8DE5718F5CE5D00D9B58C /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE4918F5CE5D00D9B58C /* AFNetworkActivityIndicatorManager.m */; };
+		E3F8DE5818F5CE5D00D9B58C /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE4C18F5CE5D00D9B58C /* AFPropertyListRequestOperation.m */; };
+		E3F8DE5918F5CE5D00D9B58C /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE4E18F5CE5D00D9B58C /* AFURLConnectionOperation.m */; };
+		E3F8DE5A18F5CE5D00D9B58C /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE5018F5CE5D00D9B58C /* AFXMLRequestOperation.m */; };
+		E3F8DE5B18F5CE5D00D9B58C /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE5218F5CE5D00D9B58C /* UIImageView+AFNetworking.m */; };
+		E3F8DE6118F5CECE00D9B58C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE6018F5CECE00D9B58C /* MobileCoreServices.framework */; };
+		E3F8DE6318F5CED600D9B58C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8DE6218F5CED600D9B58C /* SystemConfiguration.framework */; };
+		E3F8DE8A18F5D09100D9B58C /* ImageCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE8518F5D09100D9B58C /* ImageCommon.m */; };
+		E3F8DE8D18F5D21900D9B58C /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE8C18F5D21900D9B58C /* BaseRequest.m */; };
+		E3F8DE9018F5D2AC00D9B58C /* OffersRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE8F18F5D2AC00D9B58C /* OffersRequest.m */; };
+		E3F8DE9418F5E52900D9B58C /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8DE9318F5E52900D9B58C /* NSString+SHA1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E366119D18F8505C00C686EF /* Offer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer.h; sourceTree = "<group>"; };
+		E366119E18F8505C00C686EF /* Offer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer.m; sourceTree = "<group>"; };
+		E36611A018F851FA00C686EF /* OfferThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferThumbnail.h; sourceTree = "<group>"; };
+		E36611A118F851FA00C686EF /* OfferThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferThumbnail.m; sourceTree = "<group>"; };
+		E36611A318F8520800C686EF /* OfferTimeToPayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferTimeToPayout.h; sourceTree = "<group>"; };
+		E36611A418F8520800C686EF /* OfferTimeToPayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferTimeToPayout.m; sourceTree = "<group>"; };
+		E36611A618F8521B00C686EF /* OfferType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferType.h; sourceTree = "<group>"; };
+		E36611A718F8521B00C686EF /* OfferType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferType.m; sourceTree = "<group>"; };
+		E36611AA18F858D500C686EF /* SponsorPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorPayViewController.h; sourceTree = "<group>"; };
+		E36611AB18F858D500C686EF /* SponsorPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorPayViewController.m; sourceTree = "<group>"; };
+		E36611AE18F8590B00C686EF /* OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferViewController.h; sourceTree = "<group>"; };
+		E36611AF18F8590B00C686EF /* OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferViewController.m; sourceTree = "<group>"; };
+		E36611B118F85B2B00C686EF /* OfferCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferCell.h; sourceTree = "<group>"; };
+		E36611B218F85B2B00C686EF /* OfferCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferCell.m; sourceTree = "<group>"; };
+		E36611B418F87CDB00C686EF /* OfferCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferCell.xib; sourceTree = "<group>"; };
+		E36611B618F8842600C686EF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		E36611B718F8842600C686EF /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		E36611B918F8843D00C686EF /* Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		E36611BC18F88A8E00C686EF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E36611BD18F88A8E00C686EF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E36611C918F89E3000C686EF /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		E36611CA18F89E3000C686EF /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		E36611CB18F89E3000C686EF /* HTTPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCommon.h; sourceTree = "<group>"; };
+		E36611CC18F89E3000C686EF /* HTTPCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCommon.m; sourceTree = "<group>"; };
+		E36611CD18F89E3000C686EF /* HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
+		E36611CE18F89E3000C686EF /* HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
+		E36611DC18F8A23400C686EF /* OffersRequestTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersRequestTestCase.m; sourceTree = "<group>"; };
+		E371595818F8A6E700B77F6F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		E3F8DE0318F5CDC400D9B58C /* SponsorPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SponsorPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F8DE0618F5CDC400D9B58C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3F8DE0818F5CDC400D9B58C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +103,41 @@
 		E3F8DE1618F5CDC400D9B58C /* SponsorPayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SponsorPayAppDelegate.m; sourceTree = "<group>"; };
 		E3F8DE1918F5CDC400D9B58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E3F8DE1C18F5CDC400D9B58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		E3F8DE1E18F5CDC400D9B58C /* SponsorPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SponsorPayViewController.h; sourceTree = "<group>"; };
-		E3F8DE1F18F5CDC400D9B58C /* SponsorPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SponsorPayViewController.m; sourceTree = "<group>"; };
 		E3F8DE2118F5CDC400D9B58C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3F8DE2718F5CDC400D9B58C /* SponsorPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SponsorPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F8DE2818F5CDC400D9B58C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E3F8DE3018F5CDC400D9B58C /* SponsorPayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SponsorPayTests-Info.plist"; sourceTree = "<group>"; };
 		E3F8DE3218F5CDC400D9B58C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E3F8DE3418F5CDC400D9B58C /* SponsorPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SponsorPayTests.m; sourceTree = "<group>"; };
+		E3F8DE4018F5CE5D00D9B58C /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		E3F8DE4118F5CE5D00D9B58C /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		E3F8DE4218F5CE5D00D9B58C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		E3F8DE4318F5CE5D00D9B58C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E3F8DE4418F5CE5D00D9B58C /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		E3F8DE4518F5CE5D00D9B58C /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		E3F8DE4618F5CE5D00D9B58C /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		E3F8DE4718F5CE5D00D9B58C /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		E3F8DE4818F5CE5D00D9B58C /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		E3F8DE4918F5CE5D00D9B58C /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		E3F8DE4A18F5CE5D00D9B58C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		E3F8DE4B18F5CE5D00D9B58C /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		E3F8DE4C18F5CE5D00D9B58C /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		E3F8DE4D18F5CE5D00D9B58C /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		E3F8DE4E18F5CE5D00D9B58C /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E3F8DE4F18F5CE5D00D9B58C /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		E3F8DE5018F5CE5D00D9B58C /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		E3F8DE5118F5CE5D00D9B58C /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		E3F8DE5218F5CE5D00D9B58C /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E3F8DE6018F5CECE00D9B58C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E3F8DE6218F5CED600D9B58C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E3F8DE8418F5D09100D9B58C /* ImageCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCommon.h; sourceTree = "<group>"; };
+		E3F8DE8518F5D09100D9B58C /* ImageCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCommon.m; sourceTree = "<group>"; };
+		E3F8DE8618F5D09100D9B58C /* Url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Url.h; sourceTree = "<group>"; };
+		E3F8DE8B18F5D21900D9B58C /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		E3F8DE8C18F5D21900D9B58C /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		E3F8DE8E18F5D2AC00D9B58C /* OffersRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersRequest.h; sourceTree = "<group>"; };
+		E3F8DE8F18F5D2AC00D9B58C /* OffersRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersRequest.m; sourceTree = "<group>"; };
+		E3F8DE9218F5E52900D9B58C /* NSString+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
+		E3F8DE9318F5E52900D9B58C /* NSString+SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA1.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +145,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E371595918F8A6E700B77F6F /* AdSupport.framework in Frameworks */,
+				E3F8DE6318F5CED600D9B58C /* SystemConfiguration.framework in Frameworks */,
+				E3F8DE6118F5CECE00D9B58C /* MobileCoreServices.framework in Frameworks */,
 				E3F8DE0918F5CDC400D9B58C /* CoreGraphics.framework in Frameworks */,
 				E3F8DE0B18F5CDC400D9B58C /* UIKit.framework in Frameworks */,
 				E3F8DE0718F5CDC400D9B58C /* Foundation.framework in Frameworks */,
@@ -81,6 +167,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E366119C18F8505000C686EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E366119D18F8505C00C686EF /* Offer.h */,
+				E366119E18F8505C00C686EF /* Offer.m */,
+				E36611A018F851FA00C686EF /* OfferThumbnail.h */,
+				E36611A118F851FA00C686EF /* OfferThumbnail.m */,
+				E36611A318F8520800C686EF /* OfferTimeToPayout.h */,
+				E36611A418F8520800C686EF /* OfferTimeToPayout.m */,
+				E36611A618F8521B00C686EF /* OfferType.h */,
+				E36611A718F8521B00C686EF /* OfferType.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E36611A918F858B900C686EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E36611AD18F858E200C686EF /* Offers */,
+				E36611AA18F858D500C686EF /* SponsorPayViewController.h */,
+				E36611AB18F858D500C686EF /* SponsorPayViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E36611AD18F858E200C686EF /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				E36611AE18F8590B00C686EF /* OfferViewController.h */,
+				E36611AF18F8590B00C686EF /* OfferViewController.m */,
+				E36611B118F85B2B00C686EF /* OfferCell.h */,
+				E36611B218F85B2B00C686EF /* OfferCell.m */,
+				E36611B418F87CDB00C686EF /* OfferCell.xib */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		E36611C818F89E3000C686EF /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E36611C918F89E3000C686EF /* HTTPClient.h */,
+				E36611CA18F89E3000C686EF /* HTTPClient.m */,
+				E36611CB18F89E3000C686EF /* HTTPCommon.h */,
+				E36611CC18F89E3000C686EF /* HTTPCommon.m */,
+				E36611CD18F89E3000C686EF /* HTTPRequest.h */,
+				E36611CE18F89E3000C686EF /* HTTPRequest.m */,
+			);
+			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
 		E3F8DDFA18F5CDC300D9B58C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +239,9 @@
 		E3F8DE0518F5CDC400D9B58C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E371595818F8A6E700B77F6F /* AdSupport.framework */,
+				E3F8DE6218F5CED600D9B58C /* SystemConfiguration.framework */,
+				E3F8DE6018F5CECE00D9B58C /* MobileCoreServices.framework */,
 				E3F8DE0618F5CDC400D9B58C /* Foundation.framework */,
 				E3F8DE0818F5CDC400D9B58C /* CoreGraphics.framework */,
 				E3F8DE0A18F5CDC400D9B58C /* UIKit.framework */,
@@ -114,12 +253,16 @@
 		E3F8DE0C18F5CDC400D9B58C /* SponsorPay */ = {
 			isa = PBXGroup;
 			children = (
+				E366119C18F8505000C686EF /* Models */,
+				E3F8DE9118F5E51400D9B58C /* Utils */,
+				E3F8DE7A18F5D09100D9B58C /* Common */,
+				E3F8DE7C18F5D09100D9B58C /* Communication */,
+				E3F8DE3E18F5CE5D00D9B58C /* API */,
+				E36611A918F858B900C686EF /* Controllers */,
 				E3F8DE1518F5CDC400D9B58C /* SponsorPayAppDelegate.h */,
 				E3F8DE1618F5CDC400D9B58C /* SponsorPayAppDelegate.m */,
 				E3F8DE1818F5CDC400D9B58C /* Main_iPhone.storyboard */,
 				E3F8DE1B18F5CDC400D9B58C /* Main_iPad.storyboard */,
-				E3F8DE1E18F5CDC400D9B58C /* SponsorPayViewController.h */,
-				E3F8DE1F18F5CDC400D9B58C /* SponsorPayViewController.m */,
 				E3F8DE2118F5CDC400D9B58C /* Images.xcassets */,
 				E3F8DE0D18F5CDC400D9B58C /* Supporting Files */,
 			);
@@ -140,7 +283,7 @@
 		E3F8DE2E18F5CDC400D9B58C /* SponsorPayTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3F8DE3418F5CDC400D9B58C /* SponsorPayTests.m */,
+				E36611DC18F8A23400C686EF /* OffersRequestTestCase.m */,
 				E3F8DE2F18F5CDC400D9B58C /* Supporting Files */,
 			);
 			path = SponsorPayTests;
@@ -153,6 +296,76 @@
 				E3F8DE3118F5CDC400D9B58C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3F8DE3E18F5CE5D00D9B58C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E3F8DE3F18F5CE5D00D9B58C /* AFNetworking */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E3F8DE3F18F5CE5D00D9B58C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E3F8DE4018F5CE5D00D9B58C /* AFHTTPClient.h */,
+				E3F8DE4118F5CE5D00D9B58C /* AFHTTPClient.m */,
+				E3F8DE4218F5CE5D00D9B58C /* AFHTTPRequestOperation.h */,
+				E3F8DE4318F5CE5D00D9B58C /* AFHTTPRequestOperation.m */,
+				E3F8DE4418F5CE5D00D9B58C /* AFImageRequestOperation.h */,
+				E3F8DE4518F5CE5D00D9B58C /* AFImageRequestOperation.m */,
+				E3F8DE4618F5CE5D00D9B58C /* AFJSONRequestOperation.h */,
+				E3F8DE4718F5CE5D00D9B58C /* AFJSONRequestOperation.m */,
+				E3F8DE4818F5CE5D00D9B58C /* AFNetworkActivityIndicatorManager.h */,
+				E3F8DE4918F5CE5D00D9B58C /* AFNetworkActivityIndicatorManager.m */,
+				E3F8DE4A18F5CE5D00D9B58C /* AFNetworking.h */,
+				E3F8DE4B18F5CE5D00D9B58C /* AFPropertyListRequestOperation.h */,
+				E3F8DE4C18F5CE5D00D9B58C /* AFPropertyListRequestOperation.m */,
+				E3F8DE4D18F5CE5D00D9B58C /* AFURLConnectionOperation.h */,
+				E3F8DE4E18F5CE5D00D9B58C /* AFURLConnectionOperation.m */,
+				E3F8DE4F18F5CE5D00D9B58C /* AFXMLRequestOperation.h */,
+				E3F8DE5018F5CE5D00D9B58C /* AFXMLRequestOperation.m */,
+				E3F8DE5118F5CE5D00D9B58C /* UIImageView+AFNetworking.h */,
+				E3F8DE5218F5CE5D00D9B58C /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		E3F8DE7A18F5D09100D9B58C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E36611B918F8843D00C686EF /* Enum.h */,
+				E36611B618F8842600C686EF /* Common.h */,
+				E36611B718F8842600C686EF /* Common.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E3F8DE7C18F5D09100D9B58C /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				E36611C818F89E3000C686EF /* HTTPRequest */,
+				E3F8DE8418F5D09100D9B58C /* ImageCommon.h */,
+				E3F8DE8518F5D09100D9B58C /* ImageCommon.m */,
+				E3F8DE8618F5D09100D9B58C /* Url.h */,
+				E3F8DE8B18F5D21900D9B58C /* BaseRequest.h */,
+				E3F8DE8C18F5D21900D9B58C /* BaseRequest.m */,
+				E3F8DE8E18F5D2AC00D9B58C /* OffersRequest.h */,
+				E3F8DE8F18F5D2AC00D9B58C /* OffersRequest.m */,
+				E36611BC18F88A8E00C686EF /* Reachability.h */,
+				E36611BD18F88A8E00C686EF /* Reachability.m */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		E3F8DE9118F5E51400D9B58C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E3F8DE9218F5E52900D9B58C /* NSString+SHA1.h */,
+				E3F8DE9318F5E52900D9B58C /* NSString+SHA1.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +445,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36611B518F87CDB00C686EF /* OfferCell.xib in Resources */,
 				E3F8DE1D18F5CDC400D9B58C /* Main_iPad.storyboard in Resources */,
 				E3F8DE2218F5CDC400D9B58C /* Images.xcassets in Resources */,
 				E3F8DE1A18F5CDC400D9B58C /* Main_iPhone.storyboard in Resources */,
@@ -254,9 +468,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F8DE5518F5CE5D00D9B58C /* AFImageRequestOperation.m in Sources */,
+				E36611B018F8590B00C686EF /* OfferViewController.m in Sources */,
 				E3F8DE1718F5CDC400D9B58C /* SponsorPayAppDelegate.m in Sources */,
-				E3F8DE2018F5CDC400D9B58C /* SponsorPayViewController.m in Sources */,
+				E3F8DE5818F5CE5D00D9B58C /* AFPropertyListRequestOperation.m in Sources */,
+				E3F8DE9418F5E52900D9B58C /* NSString+SHA1.m in Sources */,
+				E3F8DE8D18F5D21900D9B58C /* BaseRequest.m in Sources */,
+				E36611B318F85B2B00C686EF /* OfferCell.m in Sources */,
+				E36611D118F89E3000C686EF /* HTTPRequest.m in Sources */,
+				E36611A218F851FA00C686EF /* OfferThumbnail.m in Sources */,
+				E36611A818F8521B00C686EF /* OfferType.m in Sources */,
+				E36611AC18F858D500C686EF /* SponsorPayViewController.m in Sources */,
+				E36611B818F8842600C686EF /* Common.m in Sources */,
+				E3F8DE9018F5D2AC00D9B58C /* OffersRequest.m in Sources */,
+				E3F8DE8A18F5D09100D9B58C /* ImageCommon.m in Sources */,
+				E366119F18F8505C00C686EF /* Offer.m in Sources */,
+				E36611D018F89E3000C686EF /* HTTPCommon.m in Sources */,
+				E3F8DE5918F5CE5D00D9B58C /* AFURLConnectionOperation.m in Sources */,
+				E3F8DE5A18F5CE5D00D9B58C /* AFXMLRequestOperation.m in Sources */,
+				E36611A518F8520800C686EF /* OfferTimeToPayout.m in Sources */,
+				E3F8DE5618F5CE5D00D9B58C /* AFJSONRequestOperation.m in Sources */,
+				E36611CF18F89E3000C686EF /* HTTPClient.m in Sources */,
+				E3F8DE5B18F5CE5D00D9B58C /* UIImageView+AFNetworking.m in Sources */,
+				E3F8DE5718F5CE5D00D9B58C /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E3F8DE5418F5CE5D00D9B58C /* AFHTTPRequestOperation.m in Sources */,
 				E3F8DE1318F5CDC400D9B58C /* main.m in Sources */,
+				E36611BE18F88A8E00C686EF /* Reachability.m in Sources */,
+				E3F8DE5318F5CE5D00D9B58C /* AFHTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F8DE3518F5CDC400D9B58C /* SponsorPayTests.m in Sources */,
+				E36611DD18F8A23400C686EF /* OffersRequestTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +632,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SponsorPay/SponsorPay-Prefix.pch";
 				INFOPLIST_FILE = "SponsorPay/SponsorPay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,7 +647,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SponsorPay/SponsorPay-Prefix.pch";
 				INFOPLIST_FILE = "SponsorPay/SponsorPay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +713,7 @@
 				E3F8DE3A18F5CDC400D9B58C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3F8DE3B18F5CDC400D9B58C /* Build configuration list for PBXNativeTarget "SponsorPayTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +722,7 @@
 				E3F8DE3D18F5CDC400D9B58C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
