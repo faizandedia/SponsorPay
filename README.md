@@ -1,7 +1,7 @@
 SponsorPay
 ==========
 
-/**********SponsorPay Demo Project***********/
+/**********SponsorPay Mobile Offer API***********/
 
 
 Offers API Integeration
