@@ -1,4 +1,4 @@
-SponsorPay Mobile API challenge
+iOS SponsorPay Mobile API challenge
 ==========
 
 /**********SponsorPay Mobile Offer API***********/
